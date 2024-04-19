@@ -55,7 +55,7 @@ namespace ArrayHandout
         }
 
         static int[,] GenerateAnIntMatrix(int[,] matrix)
-        {            
+        {
             Random rnd = new Random();
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
@@ -94,8 +94,8 @@ namespace ArrayHandout
             }
             return result;
         }
-        
 
-       
+
+
     }
 }
